@@ -1,3 +1,10 @@
+body {
+  background: linear-gradient(to bottom, #E0F7FA, #80DEEA, #4DD0E1, #26C6DA, #00ACC1);
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
 .App {
   max-width: 800px;
   margin: 60px auto;
