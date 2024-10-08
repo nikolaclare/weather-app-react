@@ -1,4 +1,41 @@
 .Weather {
   font-family: "Monserrat", Arial, sans-serif;
-  background-color: #F5F5F5;
+  background: linear-gradient(to bottom, #F0F5E9, #D3DFC8, #A7B99E, #738F6E);
+  border-radius: 16px;
+  box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
+  padding: 40px;
+  color: #525A3A;
+}
+
+.Weather form {
+  padding-bottom: 30px;
+  margin-top: 40px;
+  border-bottom: 1px solid #525A3A;
+}
+
+.Weather .search-input {
+  background: #EFF7D3;
+  color: #525A3A;
+  border: none;
+  padding: 15px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+}
+
+.Weather .btn {
+  background: #525A3A;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 0;
+  border: none;
+  height: 50px;
+  color: #EFF7D3;
+}
+
+.Weather .search-inputplaceholder {
+  line-height: 20px;
+  color: #738F6E;
 }

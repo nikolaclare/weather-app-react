@@ -1,8 +1,7 @@
 body {
-  background: linear-gradient(to bottom, #E0F7FA, #80DEEA, #4DD0E1, #26C6DA, #00ACC1);
-  height: 100vh;
-  margin: 0;
-  color: #333;
+  background-image: url("images/rainBackground.jpg");
+  background-size: cover;
+  background-position: center top; 
 }
 
 .App {
